@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: pink;
+  font-family: cursive;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  font-size: 45px;
+}
+.container {
+  margin: 15px 0;
+  display: flex;
+  flex-wrap: wrap;
+  width: 75%;
+  justify-content: center;
+  align-items: center;
+}
+span {
+  font-size: 35px;
+  color: black;
+  font-family: cursive;
+}
+.btn {
+  height: 150px;
+  width: 150px;
+  cursor: pointer;
+  margin: 15px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+#crash {
+  background-image: url(../images/crash.png);
+  background-size: cover;
+}
+#tom {
+  background-image: url(../images/tom.png);
+  background-size: cover;
+}
+#snare {
+  background-image: url(../images/snare.png);
+  background-size: cover;
+}
+#kick {
+  background-image: url(../images/kick.png);
+  background-size: cover;
+}
